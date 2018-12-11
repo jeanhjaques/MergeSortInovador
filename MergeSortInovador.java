@@ -1,5 +1,5 @@
 public class MergeSortInovador{
-	public void static mergeSortInovador(int p, int r, int v[]){
+	public static void mergeSortInovador(int p, int r, int v[]){
 		int q;
 		if(p<r-1){
 			q=(p+r)/2;
