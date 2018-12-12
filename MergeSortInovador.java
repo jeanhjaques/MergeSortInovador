@@ -10,7 +10,7 @@ public class MergeSortInovador{
 				mergeSortInovador(p,q,v);
 				mergeSortInovador(q,r,v);
 				intercala(p,q,r,v);
-		}
+			}
 		}
 	}
 	public static void intercala(int p, int q, int r, int v[]) {
@@ -37,6 +37,7 @@ public class MergeSortInovador{
 			v[i] = w[i-p];
 		}
 	}
+
 	public static void bubleSort(int p, int r,int v[]) {
 		int aux[] = new int[p+r];
 		
