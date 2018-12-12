@@ -1,0 +1,2 @@
+# MergeSortInovador
+Alguns estudiosos aﬁrmam que, quando o algoritmo de ordenação por separação divide o vetor recursivamente e, em um determinado momento, um subvetor ﬁca com tamanho menor ou igual 8, não vale mais a pena continuar dividindo o vetor até que ele tenha tamanho 1, e sim ordená-lo com um algoritmo de ordenação elementar (insertionsort, bubble sort ou selection sort), que se comportam relativamente bem para vetores pequenos. Nesse projeto implementamos essa ideia.
